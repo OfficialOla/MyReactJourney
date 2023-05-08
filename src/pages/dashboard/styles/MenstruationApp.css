@@ -1,0 +1,97 @@
+  .mainContainer{
+    /* background-image:url("https://th.bing.com/th/id/R.1929ec95b3abdfdf8b17fe5731c6d529?rik=hmVLMiSxCkGSRw&riu=http%3a%2f%2fehealthquotes.org%2fwp-content%2fuploads%2f2019%2f03%2fknow-about-Menstruation.jpg&ehk=R0GZGYbMvoWxKq6srflx6cJ75BIqQt4ZSYdFV7Tro%2fU%3d&risl=&pid=ImgRaw&r=0"); */
+    background-image: url("https://th.bing.com/th/id/R.c239791022de611a20616862458796fe?rik=5u6%2bCpGr%2bvdfzw&pid=ImgRaw&r=0");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  nav{
+    height: 5%;
+    width: 100%;
+    display: flex;
+    background-color: #007bff;
+  }
+  .nextPeriodDate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: bolder; 
+
+  }
+  .periodDates{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: bolder; 
+  }
+  .pd{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: bolder; 
+  }
+  .npd{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: bolder; 
+  }
+  .logo{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px blue, 0 0 25px yellow, 0 0 5px darkblue;
+    font-size: 30px;
+    font-weight: 700;
+    vertical-align: text-top;
+    font-style: italic;
+    margin-top: 0%;
+}
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .lpdtext{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: bolder;
+  }
+  .CycleIntervalText{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: bolder;
+  }
+  
+  input[type="date"],
+  input[type="number"] {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0069d9;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .result {
+    margin-top: 20px;
+    border: 1px solid #e90a0a;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  

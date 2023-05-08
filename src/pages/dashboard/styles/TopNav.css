@@ -1,0 +1,101 @@
+
+.topNav{ 
+    height: 5%;
+    width: 100%;
+    display: flex;
+    padding: 1% 2%;
+    /* background-color: burlywood; */
+}
+.ptag{
+    width: 10%;
+    text-align: start;
+}
+.logo{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px blue, 0 0 25px yellow, 0 0 5px darkblue;
+    font-size: 30px;
+    font-weight: 700;
+    /* vertical-align: text-top;
+    font-style: italic;
+    margin-top: 0%; */
+}
+.topNav nav{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    justify-content: end;
+    /* padding-left: 8%; */
+}
+.topNav nav li{
+    list-style: none;
+    padding: 1% 2%;
+
+}
+.topNav nav li a{
+    text-decoration: none;
+                font-size: 14px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);         
+}
+.getDemo{
+    border: 2px solid blue;
+    color: blue;
+    font-size: 14px;
+    height: 100%;
+    text-align: center;
+    padding: 0% 1%;
+   
+}
+.login{
+    display: flex;
+    text-align: center;
+    padding: 0% 1%;
+    justify-content: space-between;
+    width: 8%;
+    font-weight: 700;
+}
+.login img{
+    width: 40%;
+    height: 60%;
+    padding-top: 10%s;
+}
+.slanted-bg {
+    background-color: rgb(58, 91, 255);
+    width: 97%;
+    height: 60%;
+    padding: 5% 2%;           
+}
+
+.All{
+    padding-bottom: 33%;
+}
+.innerFooter{
+    overflow-y: hidden;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: black;
+    border-radius: 12%;
+}
+
+.footer{
+    
+    background-color: black;
+    padding-bottom: 10%;
+
+    
+}
+.w{
+    color: white;
+}
+.x{
+    color: white;
+}
+.y{
+    color: white;
+}
+.z{
+    color: white;
+} 
+.a{
+    color: white;
+}

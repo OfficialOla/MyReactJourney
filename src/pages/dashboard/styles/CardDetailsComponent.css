@@ -1,0 +1,42 @@
+.MainContainer{
+    position: center;
+    /* background-image: url("https://thumbs.dreamstime.com/t/abstract-aurora-wallpaper-bright-red-orange-color-effect-background-50347650.jpg"); */
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    position: center;
+    background-color: transparent;
+    box-shadow: greenyellow;
+    margin-top: 7%;
+    margin-right: 3%;
+    border: 5px solid black;
+    height: 70vh;
+    width: 100vw;
+    border-radius: 3%;
+    color: white;
+    font-family: "Helvetica Neue";
+    font-weight: bolder;
+    text-decoration-color: #070b15;
+}
+.container img{
+    transform: scaleX(-1);
+    background-color: white;
+    border-radius: 40%;
+}
+.details{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    margin-top: 5%;
+    margin-right: 5%;
+    justify-content: space-between; 
+}
+button{
+    margin-top: 10%;
+    color: white;
+    width: 50%;
+    height: 18%;
+    background-color: mediumseagreen;
+    position: relative;
+}

@@ -1,0 +1,48 @@
+.Tictactoe {
+  height: 100%;
+  background-color: aqua;
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+  .welcome{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .currentPlayer{
+    font-size: large;
+    
+  }
+  
+  .game-board {
+    display: grid;
+    background-color: blue;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 3px;
+    width: 310px;
+    flex-wrap: wrap;
+    margin: 0 auto
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+  }
+  
+  .box:hover {
+    background-color: #ee1919;
+  }
+  .resetButton{
+    color: rgb(0, 0, 7);
+    
+  }
+  .resetButton:hover{
+    color: #ee1919;
+    
+  }
