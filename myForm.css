@@ -1,0 +1,33 @@
+.form{
+    width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: aqua;
+}
+input{
+    width: 50%;
+    height: 6vh;
+    border-radius: 0.5cm;
+}
+.submit{
+    width: 50%;
+    height: 6vh;
+    border-radius: 0.5cm;
+    background-color: blue;
+    color: white;
+    font-size: large;
+}
+.submit:hover{
+    width: 50%;
+    height: 6vh;
+    border-radius: 0.5cm;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: large;
+}
